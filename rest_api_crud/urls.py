@@ -18,8 +18,11 @@ from django.contrib import admin
 from django.conf import settings
 from django.conf.urls.static import static
 
+from data import views as dataView
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^$',dataView.home)
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
