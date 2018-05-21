@@ -1,0 +1,3 @@
+id,site_id,building_name,grid_location,type,construction,floors,function,notes,field
+1,2s,herohonda,delhi,Sports,fast,2,store,good,abcdef
+2,1,citycenter,noida,Office,slow,3,room,bad,ghijkl
