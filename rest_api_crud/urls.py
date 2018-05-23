@@ -25,7 +25,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^api-token-auth/', views.obtain_auth_token),
     url(r'^api/v1/(?P<id>\d+)', APITest.as_view()),
-    url(r'^api/v2/(?P<slug>\d+)/$', update_data),
+    url(r'^api/v2/$', update_data2),
     url(r'^$', home)
 ]
 
